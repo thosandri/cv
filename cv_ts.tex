@@ -1,0 +1,102 @@
+
+%%% Ceci est un commentaire  %%%%
+
+\documentclass[10pt,a4paper,sans]{moderncv}   %%%% classe moderncv spécifique au cv
+              %%% taille,format,police (sans ou roman)
+              
+
+\moderncvtheme[green]{classic}
+ %%%% couleur (red,green,blue,orange,purple,black)
+
+
+  %%% paquet pour la gestion de la langue française 
+\usepackage[utf8]{inputenc} %%% encodage
+\usepackage[french]{babel} 
+\usepackage[top=1.1cm, bottom=1.1cm, left=1.8cm, right=1.8cm]{geometry}
+%\usepackage[scale=0.8]{geometry}
+%%%%  paquet pour gérer la dimensions des marges
+\usepackage[french]{babel}
+
+\setlength{\hintscolumnwidth}{2.8cm}
+% Largeur de la colonne pour les dates
+
+%%% infos personnelles
+\firstname{Thomas}
+\familyname{Sandri}
+\title{Ingénieur Géomaticien }              
+\address{7, bis bd Copernic}{77420 Champs-sur-Marne}    
+\email{tho.sandri@gmail.com}                      
+\phone[mobile]{06 95 53 47 65}
+\phone[fixed]{03 26 21 09 27}
+\extrainfo{24 ans -- Permis B}
+%\social[linkedin]{thomas.sandri}
+%\photo[64pt][0pt]{./test.jpg}
+%%%% on commence le document %%%%
+\begin{document}
+\maketitle  %%%% pour créer les infos perso celles en haut à gauche
+
+
+\section{Formation}
+
+%%%% structure cventry : \cventry{dates}{intitulé par défaut en gras}{infos}{infos}{infos}{infos sur deuxième ligne}  
+%\vspace{0.3cm}
+\cventry{2014 -- 2015}{Mastère PPMD}{Photogrammétrie, Positionnement et Mesures des Déformations}{ENSG}{}{\textbf{Spécialité Géodésie}}
+\vspace{0.10cm} %%% pour espacement vertical
+\cventry{2012 -- 2015}{Cycle ingénieur}{\'Ecole Nationale des Sciences Géographiques}{ENSG}{Champs-sur-Marne}{}
+\vspace{0.10cm}
+\cventry{2009 -- 2012}{Classe préparatoire aux grandes écoles}{Filière Physique et Technologie}{Lycée Etienne Oehmichen}{Châlons-en-champagne}{}
+\vspace{0.1cm}
+\cventry{2008 -- 2009}{Baccalauréat Scientifique}{Lycée Etienne Oehmichen}{Châlons-en-champagne}{}{}
+\vspace{0.15cm}
+
+\section{Expériences professionnelles}
+%\vspace{0.3cm}
+\cventry{Novembre 2015 \\à Février 2016 }{Stage pluridisciplinaire}{Università Degli Studi di Udine}{Italie}{}{
+\begin{itemize}
+\item Développement d'une méthode de détection et de restauration des ombres dans les 
+images aériennes très haute résolution en vue d'améliorer la classification de la végétation.
+\end{itemize}
+}
+\cventry{Mai 2015\\à Octobre 2015}{Travail de fin d'études}{Institut de Mécanique Céleste et de Calcul des Éphémérides}{Paris}{France}{
+\begin{itemize}
+\item Étude et implémentation du freinage atmosphérique dans un logiciel de propagation d'orbites;
+\item Établissement d'un modèle statistique de prévisions de dates de rentrées atmosphériques de débris spatiaux.
+\end{itemize}
+}
+\vspace{0.1cm}
+\cventry{Mai 2013 \\ à Août 2013}{Stage terrain pluridisciplinaire de l'ENSG}{Forcalquier}{France}{}{%\vspace{0.1cm}
+\begin{itemize} %%% pour créer une liste
+\item \'Etude des déformations d'un ouvrage d'art par auscultation;
+\item Réalisation d'un géoïde local par nivellement et méthodes GNSS;
+\item Modélisation 3D d'une chapelle par techniques photogrammétriques;
+\item Classification de cultures à l'aide d'images RADAR.
+\end{itemize}
+}
+\vspace{0.05cm}
+\cventry{Juillet 2011 \\ à Août 2011}{Préparateur de commandes}{magasin E.Leclerc}{Saint-Martin-sur-le-Pré}{France}{}
+\vspace{0.1cm}
+\cventry{Juillet 2010 \\ à Août 2010}{Plongeur}{restaurant Courtepaille}{Châlons-en-champagne}{France}{}
+\vspace{0.15cm}
+
+\section{Compétences techniques}
+%\vspace{0.3cm}
+\cvdoubleitem{Environnement:}{Linux (Ubuntu), Windows}{Bureautique:}{ Office, OpenOffice, \LaTeX}
+%\vspace{0.15cm}
+\cvdoubleitem{Programmation:}{C++/C, Python, Fortran 90, Shell}{Web:}{HTML5, JavaScript, PHP}
+%\vspace{0.15cm}
+\cvdoubleitem{Logiciels:}{Matlab, Octave, Mathematica, Qt}{SIG:}{Qgis, ArcGIS, SQL}
+\vspace{0.15cm}
+
+\section{Compétences linguistiques}
+%\vspace{0.3cm}
+\cvlanguage{Français:}{Langue maternelle}{}
+\cvlanguage{Anglais:}{Courant - Toeic 820 / 990}{}
+\cvlanguage{Italien:}{Courant}{}
+\vspace{0.15cm}
+
+\section{Centres d'intérêt}
+%\vspace{0.3cm}
+\cvitem{\textbf{Sports:}}{Basket-ball (Compétition - 10 ans), Football (Compétition - 5 ans), Course à pieds}
+
+\end{document}
+
