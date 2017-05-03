@@ -23,12 +23,12 @@
 %%% infos personnelles
 \firstname{Thomas}
 \familyname{Sandri}
-\title{Ingénieur Géomaticien - Géodésien}              
-\address{7, bis bd Copernic}{77420 Champs-sur-Marne}    
+\title{Ingénieur Géomaticien}              
+\address{11, bis bd Copernic}{77420 Champs-sur-Marne}
 \email{tho.sandri@gmail.com}                      
 \phone[mobile]{06 95 53 47 65}
-\phone[fixed]{03 26 21 09 27}
-\extrainfo{25 ans -- Permis B}
+%\phone[fixed]{03 26 21 09 27} telephone fixe
+\extrainfo{26 ans -- Permis B}
 \social[linkedin]{thomas.sandri}
 %\social[linkedin]{thomas.sandri}
 %\photo[64pt][0pt]{./test.jpg}
@@ -41,10 +41,11 @@
 
 %%%% structure cventry : \cventry{dates}{intitulé par défaut en gras}{infos}{infos}{infos}{infos sur deuxième ligne}  
 %\vspace{0.3cm}
-\cventry{2014 -- 2015}{Mastère PPMD}{Photogrammétrie, Positionnement et Mesures des Déformations}{ENSG}{}{\textbf{Spécialité Géodésie}}
-\vspace{0.10cm} %%% pour espacement vertical
-\cventry{2012 -- 2015}{Cycle ingénieur}{\'Ecole Nationale des Sciences Géographiques}{ENSG}{Champs-sur-Marne}{}
-\vspace{0.10cm}
+\cventry{2014 -- 2015}{Mastère spécialisé PPMD}{Photogrammétrie, Positionnement et Mesures des Déformations}{ENSG}{}{Traitement du signal et des images, topométrie, photogrammétrie, 3D, génie logiciel}
+\vspace{0.20cm} %%% pour espacement vertical
+\cventry{2012 -- 2015}{Cycle ingénieur}{\'Ecole Nationale des Sciences Géographiques, ENSG}{Champs-sur-Marne}{}{Programmation, développement Web, base de données, systèmes d'information,
+analyse numérique, géostatistiques, gestion de projet}
+\vspace{0.20cm}
 \cventry{2009 -- 2012}{Classe préparatoire aux grandes écoles}{Filière Physique et Technologie}{Lycée Etienne Oehmichen}{Châlons-en-champagne}{}
 \vspace{0.1cm}
 \cventry{2008 -- 2009}{Baccalauréat Scientifique}{Lycée Etienne Oehmichen}{Châlons-en-champagne}{}{}
@@ -52,25 +53,27 @@
 
 \section{Expérience professionnelle}
 %\vspace{0.3cm}
-\cventry{Juin 2016\\à Aujourd'hui}{Ingénieur de recherche}{Laboratoire de Recherche En Géodésie}{LAREG, Paris}{}{
+\cventry{Juin 2016\\à Aujourd'hui}{Ingénieur d'études}{Laboratoire de Recherche En Géodésie}{LAREG, Paris}{}{
 \begin{itemize}
 \item Étude et développement d'un prototype de filtrage pour l'assimilation de données multi-techniques.
 \end{itemize}
 }
+\vspace{0.2cm}
 \cventry{Novembre 2015\\à Février 2016}{Stage pluridisciplinaire}{Università Degli Studi di Udine}{Italie}{}{
 \begin{itemize}
 \item Développement d'une méthode de détection et de restauration des ombres dans les 
 images aériennes très haute résolution en vue d'améliorer la classification de la végétation.
 \end{itemize}
 }
-\cventry{Mai 2015\\à Octobre 2015}{Travail de fin d'études}{Institut de Mécanique Céleste et de Calcul des Éphémérides}{Paris}{France}{
+\vspace{0.2cm}
+\cventry{Mai 2015\\à Octobre 2015}{Travail de fin d'études}{Institut de Mécanique Céleste et de Calcul des Éphémérides}{Paris}{}{
 \begin{itemize}
 \item Étude et implémentation du freinage atmosphérique dans un logiciel de propagation d'orbites;
 \item Établissement d'un modèle statistique de prévisions de dates de rentrées atmosphériques de débris spatiaux.
 \end{itemize}
 }
-\vspace{0.1cm}
-\cventry{Mai 2013 \\ à Août 2013}{Stage terrain pluridisciplinaire de l'ENSG}{Forcalquier}{France}{}{%\vspace{0.1cm}
+\vspace{0.2cm}
+\cventry{Mai 2013 \\ à Août 2013}{Stage terrain de l'ENSG}{Forcalquier}{France}{}{%\vspace{0.1cm}
 \begin{itemize} %%% pour créer une liste
 \item \'Etude des déformations d'un ouvrage d'art par auscultation;
 \item Réalisation d'un géoïde local par nivellement et méthodes GNSS;
@@ -86,13 +89,16 @@ images aériennes très haute résolution en vue d'améliorer la classification 
 
 \section{Compétences techniques}
 %\vspace{0.3cm}
-\cvitem{Environnement:}{Linux, Windows}
-\cvitem{Programmation:}{C/C++, Fortran 90, Python, OpenMP, MPI, Shell}
-\cvitem{Logiciels:}{Matlab, Mathematica}
-\cvitem{Web:}{HTML5, PHP, JavaScript}
-\cvitem{SIG:}{Qgis, ArcGIS}
-\cvitem{Bureautique:}{Office, \LaTeX}
-\cvitem{Outils:}{GCC, Make, Qt, Git, CUDA}
+\cvdoubleitem{Environnement:}{Linux, Windows}{Programmation:}{C++, C, Fortran 90, Python, Bash}
+\cvdoubleitem{Bibliothèques:}{Qt, OpenMP, Eigen, Numpy}{Logiciels:}{Matlab, Mathematica, Qgis}
+\cvdoubleitem{Web:}{Html, PHP, JavaScript}{Outils:}{Git, Make, CMake, SQL}
+%\cvitem{Environnement:}{Linux, Windows}
+%\cvitem{Programmation:}{C/C++, Fortran 90, Python, OpenMP, MPI, Shell}
+%\cvitem{Logiciels:}{Matlab, Mathematica}
+%\cvitem{Web:}{HTML5, PHP, JavaScript}
+%\cvitem{SIG:}{Qgis, ArcGIS}
+%\cvitem{Bureautique:}{Office, \LaTeX}
+%\cvitem{Outils:}{GCC, Make, Qt, Git, CUDA}
 
 %\cvdoubleitem{Programmation:}{C++/C, Python, Fortran 90, Shell}{Web:}{HTML5, JavaScript, PHP}
 
